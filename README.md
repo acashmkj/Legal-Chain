@@ -137,7 +137,7 @@ After you scanned the QR code with ABT wallet:
 
 Then you are redirect to profile page. User can see the existing contracts:
 
-![List contracts](docs/list_contracts.jpg)
+![List contracts](docs/list_contracts.png)
 
 ### Step 2: Create a new contract
 
@@ -147,7 +147,7 @@ You may want to create a new contract:
 
 And all the signers will go emails like this:
 
-![Email content](docs/email.jpg)
+![Email content](docs/email.png)
 
 ### Step 3 (for signer): Sign the contract
 
