@@ -11,7 +11,7 @@ message Signature {
   bytes signature = 5;
 }
 message Contract {
-  // did of the contract that stored in the Block Contract app
+  // did of the contract that stored in the Legal-Chain Contract app
   string did = 1;
   // hash of the original contract to be signed
   string hash = 2;

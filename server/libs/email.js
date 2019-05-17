@@ -211,7 +211,7 @@ const email_template = (subject, url) => `
           <!-- Logo -->
           <tr>
             <td class="email-masthead">
-              <a class="email-masthead_name">Block Contract</a>
+              <a class="email-masthead_name">Legal-Chain Contract</a>
             </td>
           </tr>
           <!-- Email Body -->
@@ -222,7 +222,7 @@ const email_template = (subject, url) => `
                 <tr>
                   <td class="content-cell">
                     <h1>${subject}</h1>
-                    <p>If you know the sender and you do have this contract to sign, please click the following button (or open the link) and then check if the contract is correct. Once you agreed, you can use your ArcBlock wallet (or compatible ones) to sign the contract.</p>
+                    <p>If you know the sender and you do have this contract to sign, please click the following button (or open the link) and then check if the contract is correct. Once you agreed, you can use your ArcLegal-Chain wallet (or compatible ones) to sign the contract.</p>
                     <!-- Action -->
                     <table class="body-action" align="center" width="100%" cellpadding="0" cellspacing="0">
                       <tr>
@@ -239,7 +239,7 @@ const email_template = (subject, url) => `
                       </tr>
                     </table>
                     <p>Thanks,
-                      <br>The Block Contract Team</p>
+                      <br>The Legal-Chain Contract Team</p>
                     <!-- Sub copy -->
                     <table class="body-sub">
                       <tr>
@@ -265,7 +265,7 @@ const email_template = (subject, url) => `
                 <tr>
                   <td class="content-cell">
                     <p class="sub center">
-                      Block Contract App Team
+                      Legal-Chain Contract App Team
                     </p>
                   </td>
                 </tr>

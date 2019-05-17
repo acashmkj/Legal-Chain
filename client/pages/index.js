@@ -14,10 +14,10 @@ export default function IndexPage() {
         <div className="hero-unit">
           <div className="hero-content">
             <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
-              Block Contract
+              Legal-Chain Contract
             </Typography>
             <Typography variant="h6" align="center" color="textSecondary" paragraph>
-              Block contract is to build decentralized contract that people can sign, view and trust. To protect the
+              Legal-Chain contract is to build decentralized contract that people can sign, view and trust. To protect the
               privacy, the content of the contract will NOT be hosted in the blockchain, only the hash of the content is
               store in the chain.
             </Typography>
@@ -30,7 +30,7 @@ export default function IndexPage() {
                     variant="contained"
                     color="primary"
                     style={{ color: 'white' }}>
-                    Create Contract on Blockchain
+                    Create Contract on Legal-Chainchain
                   </Button>
                 </Grid>
               </Grid>

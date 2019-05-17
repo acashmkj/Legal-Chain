@@ -9,9 +9,9 @@ import Layout from '../components/layout';
 import forge from '../libs/forge';
 
 async function fetchChainInfo() {
-  const { blocks } = await forge.getBlocks({ emptyExcluded: true, paging: { size: 1 } });
+  const { blocks } = await forge.getLegal-Chains({ emptyExcluded: true, paging: { size: 1 } });
   const [{ height }] = blocks;
-  return forge.getBlock({ height });
+  return forge.getLegal-Chain({ height });
 }
 
 export default function AppPage() {
@@ -26,7 +26,7 @@ export default function AppPage() {
     <Layout title="ChainInfo Info">
       <Main>
         <Typography component="h2" variant="h4" className="page-header" color="textPrimary">
-          Reading Block & Transaction with GraphQLClient
+          Reading Legal-Chain & Transaction with GraphQLClient
         </Typography>
         <section className="section">
           <Typography component="h3" variant="h5" className="section__header" color="textPrimary" gutterBottom>
@@ -39,11 +39,11 @@ export default function AppPage() {
                 <br />
                 const client = new GraphQLClient({endpointStr});
                 <br />
-                const res = await client.getBlocks({paramStr});
+                const res = await client.getLegal-Chains({paramStr});
                 <br />
                 const [{heightStr}] = res.blocks;
                 <br />
-                const res = await client.getBlock({heightStr});
+                const res = await client.getLegal-Chain({heightStr});
               </pre>
             </code>
           </div>

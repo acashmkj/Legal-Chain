@@ -98,7 +98,7 @@ module.exports = {
         data: {
           typeUrl: 'json',
           value: {
-            model: 'BlockContract',
+            model: 'Legal-ChainContract',
             hash: contract.hash,
             contractId,
             requester: toAddress(contract.requester),

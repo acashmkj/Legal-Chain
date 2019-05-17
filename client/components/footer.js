@@ -17,7 +17,7 @@ export default function Footer() {
         { title: 'GRpcClient', link: 'https://docs.arcblock.io/forge/sdks/javascript/latest/GRpcClient.html' },
         {
           title: 'Examples',
-          link: 'https://github.com/ArcBlock/forge-js/tree/master/packages/graphql-client/examples',
+          link: 'https://github.com/ArcLegal-Chain/forge-js/tree/master/packages/graphql-client/examples',
         },
       ],
     },
